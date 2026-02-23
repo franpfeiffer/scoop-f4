@@ -5,11 +5,12 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/franpfeiffer/F4/releases/download/v0.14.0/f4-x86_64-pc-windows-msvc.zip",
+      "url": "https://github.com/franpfeiffer/F4/releases/download/v1.0.0/f4-x86_64-pc-windows-msvc.zip",
       "hash": "X86_64_WINDOWS_SHA256"
     }
   },
   "bin": "f4.exe",
+  "shortcuts": [["f4.exe", "F4"]],
   "checkver": {
     "github": "https://github.com/franpfeiffer/F4"
   },
@@ -23,4 +24,4 @@
       }
     }
   }
-    }
+}
