@@ -1,0 +1,26 @@
+{
+  "version": "1.0.0",
+  "description": "Simple text editor with Vim motions",
+  "homepage": "https://github.com/franpfeiffer/F4",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/franpfeiffer/F4/releases/download/v0.14.0/f4-x86_64-pc-windows-msvc.zip",
+      "hash": "X86_64_WINDOWS_SHA256"
+    }
+  },
+  "bin": "f4.exe",
+  "checkver": {
+    "github": "https://github.com/franpfeiffer/F4"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/franpfeiffer/F4/releases/download/v$version/f4-x86_64-pc-windows-msvc.zip",
+        "hash": {
+          "url": "$url.sha256"
+        }
+      }
+    }
+  }
+    }
