@@ -6,7 +6,7 @@
   "architecture": {
     "64bit": {
       "url": "https://github.com/franpfeiffer/F4/releases/download/v1.1.0/f4-x86_64-pc-windows-msvc.zip",
-      "hash": "edb3127ae74843bee807e6096ab350d940c8f9b25a65b02188d186be20365eb7"
+      "hash": "X86_64_WINDOWS_SHA256"
     }
   },
   "bin": "f4.exe",
